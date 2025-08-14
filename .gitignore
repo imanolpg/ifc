@@ -1,0 +1,51 @@
+# — PlatformIO build artifacts
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# — Build output
+build/
+libdeps/
+
+# — Compiler/linker products
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.d
+
+# — Dependency files
+*.d
+
+# — Coverage reports (if you use coverage tools)
+coverage/
+*.gcda
+*.gcno
+*.gcov
+
+# — IDE/project files
+.vscode/
+*.code-workspace
+.idea/
+*.iml
+*.project
+*.cproject
+*.launch
+
+# — Editor swap/backup files
+*~
+*.swp
+*.swo
+
+# — Logs & temporary files
+*.log
+tmp/
+temp/
+
+# — OS-specific junk
+.DS_Store
+Thumbs.db
+
+# — Miscellaneous
+.env           # if you keep environment overrides locally
